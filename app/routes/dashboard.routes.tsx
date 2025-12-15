@@ -3,7 +3,7 @@ import Dashboard from "@/pages/Dashboard";
 
 export const dashboardRoutes = [
     {
-        path: "/dashboard",
+        path: "/",
         element: <DashboardLayout />,
         children: [
             { index: true, element: <Dashboard /> },
